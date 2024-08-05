@@ -1,0 +1,16 @@
+// Template literals allow use to use JS within
+// strings. we use `` for such strings.
+
+const name = 'John'; //normal
+const greetings = `Salam, ${name}!`;
+
+// now greetings has 'Salam, John!' in it.
+
+// The template literals can be used for multi-line
+// strings as well. For example:
+const message = `This is a
+multi-line string.`;
+console.log(message);
+// Output:
+// This is a
+// multi-line string.
